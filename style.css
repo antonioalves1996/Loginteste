@@ -1,0 +1,86 @@
+/* Estilos para o contêiner principal */
+.container {
+  padding: 0 15px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f2f5;
+}
+
+/* Estilos para a página do Calculadora*/
+.pagina-calculadora {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.pagina-calculadora h1 {
+  color: #0000ff;
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.pagina-calculadora p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+/* Estilos para um formulário */
+form {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.1), 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+}
+
+form input {
+  height: 55px;
+  width: calc(100% - 30px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  padding: 14px;
+}
+
+h5 {
+  text-align: center;
+}
+
+/* Estilos para os botões */
+button.botao-login,
+button.botao-cadastro {
+  padding: 15px;
+  background: #0000ff;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1.063rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button.botao-login:hover,
+button.botao-cadastro:hover {
+  background: #dc143c;
+}
+
+/* Estilos para os links */
+.links {
+  margin-top: 15px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #1877f2;
+  font-size: 0.875rem;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
